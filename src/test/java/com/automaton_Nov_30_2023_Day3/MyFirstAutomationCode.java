@@ -1,4 +1,4 @@
-package com.automatonNov30_2023_Day3;
+package com.automaton_Nov_30_2023_Day3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -21,8 +21,8 @@ public class MyFirstAutomationCode {
         
         
         
-        
-        WebDriver driver1 = new EdgeDriver();
+        // If you want to open  in EdgeBrowser    //
+        WebDriver driver1 = new EdgeDriver();   // Ctrl+Shift+o   To import drivers//
         driver1.manage().window().maximize();
         driver1.get("https://www.flipkart.com");
         driver1.quit();
