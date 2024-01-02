@@ -1,0 +1,65 @@
+-----------------------------Css Selector :---------------------------------------------------------------
+
+1. html [attribute = Value]
+
+                a [class  =  signin]----------------------------Signin      for Rediff
+                  input[id=login1]----------------------------Username for Rediff
+                  input[id=password]-------------------------Passwore  for Rediff
+                  input[class=signinbtn]---------------------Sign in  Button for Rediff
+----------------------------------------------------------------------------------------------------------------------------------------
+2. Special bits with CssSelector incase there is an ID : -----------Case No 1
+     html # Id 's Value :- 
+
+               input # login1 ---------------------------------Username for Rediff
+               input # password------------------------------Passwors  for Rediff
+
+  Special bits with CssSelector incase there is CLASS-------------Case No  2
+   html. classname :-
+
+    html. Value1. Value2. Value3:-
+
+                a.bmailicon.relative ----------------------Business Email link for Rediff
+-------------------------------------------------------------------------------------------------------------------------------------
+3. Contains :-
+    html [attribute *= value]
+ 
+               a[class *=signin]------------ -- ---------------Signin for Rediff
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+4. Start -with   :-
+     html [attribute ^ = Starting Value which does not change]
+         a[class ^=sig]----------- -- ----------------------------Signin for Rediff
+-----------------------------------------------------------------------------------------------------------------------------------
+
+5. Ends- with :-
+    html [attribute $ = Value]
+    a[class $=gnin]----------- -- --------------------------------Signin for Rediff
+----------------------------------------------------------------------------------------------------------------------------------------
+6.
+Traverse between Siblings is done by the    +     Symbol.
+Traverse between Parent to child is done by the   >   Symbol.
+
+li.logo>a>img--------------------------------- Image for Openwethermap
+div#banner_android+script+nav>ul>li>a>img-------- Image for Openwethermap
+
+---------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+p#signin_info>a:nth-child(1)---------------------------------------Signin for Rediff
+p#signin_info>br:nth-child(2)---------------------------------------Signin for Rediff
+p#signin_info>a:nth-child(3)---------------------------------------Signin for Rediff
+=====================================================================================
+------------------------------------------Tutorial ninja Assignment Css Selector---------------------------------------------
+
+Tutorial ninja Assignment
+Xpath for  My Account : //i[@class='fa fa-user']/following::span[@class='hidden-xs hidden-sm hidden-md'][1]
+Css for E-mail : input[id=email]                                               seleniumpanda20@gmail.com
+Css for Password : input[id=input-password]                           Selenium@123
+
+logout  for Ninja Tutoral css Locator :     ( "div.list-group > a:nth-child(13)"))
+Continue     : ("a.btn.btn-primary"))
+I have read and agrree : input[name=agree]

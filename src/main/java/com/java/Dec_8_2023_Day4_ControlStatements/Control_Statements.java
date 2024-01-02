@@ -14,7 +14,7 @@ public class Control_Statements {
 	 
  }
     public static void ifelseControlStatement() {
-  if(2 == 4) {
+                     if(2 == 4) {
 	  System.out.println("My contition is True");
   } else {
 	  System.out.println("The above condition is dead code.");
