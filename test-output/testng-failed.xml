@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.Dec_27_2023_Day9_TestNG.AssertionFailuresAndSkips">
+      <class name="com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment1_RediffLogin">
         <methods>
-          <include name="continueButtonOnLogoutPage"/>
-          <include name="setup"/>
+          <include name="verifyRediffLoginWithCorrectUsernameIncorrectPassword"/>
           <include name="tearDown"/>
-          <include name="login"/>
-          <include name="logout"/>
+          <include name="verifyRediffLoginWithValidCredentials"/>
+          <include name="verifyRediffLoginWithIncorrectBothUsernameAndPassword"/>
+          <include name="loginSetup"/>
         </methods>
-      </class> <!-- com.TestNG.Dec_27_2023_Day9_TestNG.AssertionFailuresAndSkips -->
+      </class> <!-- com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment1_RediffLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import com.java.Dec_30_2023_Day9_SpecialClasses.Util;
 
-public class ClassAssignment_Register {
+public class ClassAssignment_Utilclass_Register {
 	// Negative Asssertion Testing Process :-    
 
 	public WebDriver driver ;
