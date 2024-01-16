@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jan 13 22:09:58 EST 2024</td>
+<td>Started on:</td><td>Mon Jan 15 18:30:39 EST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>47 seconds (47417 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (111 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,22 +76,18 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN.VerifyingRegisterWithExistingEmail()'><b>VerifyingRegisterWithExistingEmail</b><br>Test class: com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN.VerifyingRegisterWithExistingEmail(Assignment2_Register_TN.java:77)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+<td title='com.TestNG.Jan_13_Day14_TestNG_testing.Xml.Parameterization_Using_TestNGxml_File.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.TestNG.Jan_13_Day14_TestNG_testing.Xml.Parameterization_Using_TestNGxml_File</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;url&apos; is required by @Test on method verifyLoginWithValidCredentials but has not been marked @Optional or defined
+in C:\Users\andyl\AppData\Local\Temp\testng-eclipse-1792599024\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -111,22 +107,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace407747276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace407747276'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN.VerifyingRegisterWithExistingEmail(Assignment2_Register_TN.java:77)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+</pre></div><a href='#' onClick='toggleBox("stack-trace125994398", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace125994398'><pre>org.testng.TestNGException: 
+Parameter &apos;url&apos; is required by @Test on method verifyLoginWithValidCredentials but has not been marked @Optional or defined
+in C:\Users\andyl\AppData\Local\Temp\testng-eclipse-1792599024\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -147,32 +139,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN.VerifyingRegisterWithAllFields()'><b>VerifyingRegisterWithAllFields</b><br>Test class: com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN</td>
-<td></td>
-<td>2</td>
-<td>com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5</td></tr>
-<tr>
-<td title='com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN.VerifyingRegisterWithMandatoryFields()'><b>VerifyingRegisterWithMandatoryFields</b><br>Test class: com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN</td>
-<td></td>
-<td>2</td>
-<td>com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5</td></tr>
-<tr>
-<td title='com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN.VerifyingRegisterWithNoFields()'><b>VerifyingRegisterWithNoFields</b><br>Test class: com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN</td>
-<td></td>
 <td>0</td>
-<td>com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5</td></tr>
+<td>com.TestNG.Jan_13_Day14_TestNG_testing.Xml.Parameterization_Using_TestNGxml_File@25641d39</td></tr>
 </table><p>
 </body>
 </html>

@@ -34,7 +34,7 @@ public class ExcelData {
 //--------------------------	
 	
 	
-	//Step:	1 Create a Method and pass a String sheetName parameter. 
+	//Step:	1 Create a Static Method and pass a String sheetName parameter. 
 
     public static Object[] [] readFromExcelRediffData(String sheetName ) throws IOException {
 	

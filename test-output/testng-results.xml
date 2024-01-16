@@ -1,103 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-13T22:09:58 EST" name="Default suite" finished-at="2024-01-13T22:10:45 EST" duration-ms="47417">
+  <suite started-at="2024-01-15T18:54:19 EST" name="Suite" finished-at="2024-01-15T18:54:32 EST" duration-ms="13151">
     <groups>
     </groups>
-    <test started-at="2024-01-13T22:09:58 EST" name="Default test" finished-at="2024-01-13T22:10:45 EST" duration-ms="47417">
-      <class name="com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN">
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5]" started-at="2024-01-13T22:09:58 EST" name="registerSetup" finished-at="2024-01-13T22:10:09 EST" duration-ms="10760" status="PASS">
+    <test started-at="2024-01-15T18:54:19 EST" name="Test" finished-at="2024-01-15T18:54:32 EST" duration-ms="13151">
+      <class name="com.TestNG.Jan_13_Day14_TestNG_testing.Xml.Parameterization_Using_TestNGxml_File">
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.TestNG.Jan_13_Day14_TestNG_testing.Xml.Parameterization_Using_TestNGxml_File@3012646b]" started-at="2024-01-15T18:54:19 EST" name="verifyLoginWithValidCredentials" finished-at="2024-01-15T18:54:32 EST" duration-ms="12634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[seleniumpanda@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerSetup -->
-        <test-method signature="VerifyingRegisterWithMandatoryFields()[pri:1, instance:com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5]" started-at="2024-01-13T22:10:09 EST" name="VerifyingRegisterWithMandatoryFields" finished-at="2024-01-13T22:10:11 EST" duration-ms="2256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyingRegisterWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5]" started-at="2024-01-13T22:10:11 EST" name="tearDown" finished-at="2024-01-13T22:10:11 EST" duration-ms="362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5]" started-at="2024-01-13T22:10:11 EST" name="registerSetup" finished-at="2024-01-13T22:10:21 EST" duration-ms="9881" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerSetup -->
-        <test-method signature="VerifyingRegisterWithAllFields()[pri:2, instance:com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5]" started-at="2024-01-13T22:10:21 EST" name="VerifyingRegisterWithAllFields" finished-at="2024-01-13T22:10:23 EST" duration-ms="2192" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyingRegisterWithAllFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5]" started-at="2024-01-13T22:10:23 EST" name="tearDown" finished-at="2024-01-13T22:10:24 EST" duration-ms="322" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5]" started-at="2024-01-13T22:10:24 EST" name="registerSetup" finished-at="2024-01-13T22:10:33 EST" duration-ms="8999" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerSetup -->
-        <test-method signature="VerifyingRegisterWithExistingEmail()[pri:3, instance:com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5]" started-at="2024-01-13T22:10:33 EST" name="VerifyingRegisterWithExistingEmail" finished-at="2024-01-13T22:10:35 EST" duration-ms="1991" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN.VerifyingRegisterWithExistingEmail(Assignment2_Register_TN.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyingRegisterWithExistingEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5]" started-at="2024-01-13T22:10:35 EST" name="tearDown" finished-at="2024-01-13T22:10:35 EST" duration-ms="334" status="PASS">
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Jan_13_Day14_TestNG_testing.Xml.Parameterization_Using_TestNGxml_File@3012646b]" started-at="2024-01-15T18:54:32 EST" name="tearDown" finished-at="2024-01-15T18:54:32 EST" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5]" started-at="2024-01-13T22:10:35 EST" name="registerSetup" finished-at="2024-01-13T22:10:44 EST" duration-ms="9010" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerSetup -->
-        <test-method signature="VerifyingRegisterWithNoFields()[pri:4, instance:com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5]" started-at="2024-01-13T22:10:44 EST" name="VerifyingRegisterWithNoFields" finished-at="2024-01-13T22:10:45 EST" duration-ms="871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyingRegisterWithNoFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN@5e600dd5]" started-at="2024-01-13T22:10:45 EST" name="tearDown" finished-at="2024-01-13T22:10:45 EST" duration-ms="322" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.TestNG.Jan_10_2024_Day12_TestNG_Repeat.Assignment2_Register_TN -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.TestNG.Jan_13_Day14_TestNG_testing.Xml.Parameterization_Using_TestNGxml_File -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
