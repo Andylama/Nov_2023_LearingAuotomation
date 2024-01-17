@@ -18,9 +18,8 @@ public class Creating_Using_Objects {
     Ans: Innumerable                  */
                                              
                                                      
-	Creating_Using_Objects reference1 = new Creating_Using_Objects ();
-	Creating_Using_Objects reference2 = new Creating_Using_Objects ();
-	Creating_Using_Objects reference3 = new Creating_Using_Objects ();
+	
+	
 
 		
 /*  Java definition : Object is collection of all non static entities of the Class */

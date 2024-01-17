@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\andyl\eclipse-workspace\My_FirsrtMaven_AutoProject_Nov29_2023\testngParameterization.xml</span>
+                    <span>C:\Users\andyl\eclipse-workspace\My_FirsrtMaven_AutoProject_Nov29_2023\testngPractisingOOP.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest" class="method navigator-link" hash-for-method="VerifyingRegisterWithExistingEmail">VerifyingRegisterWithExistingEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +117,57 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_13_Day14_TestNG_testing.Xml.Parameterization_Using_TestNGxml_File" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials(https://tutorialsninja.com/demo, seleniumpanda@gmail.com, Selenium@123)">verifyLoginWithValidCredentials(https://tutorialsninja.com/demo, seleniumpanda@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest" class="method navigator-link" hash-for-method="VerifyingRegisterWithAllFields">VerifyingRegisterWithAllFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest" class="method navigator-link" hash-for-method="VerifyingRegisterWithMandatoryFields">VerifyingRegisterWithMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest" class="method navigator-link" hash-for-method="VerifyingRegisterWithNoFields">VerifyingRegisterWithNoFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWitNoCredentials">verifyLoginWitNoCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithInvalidCredentials">verifyLoginWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithInvalidEmailValidPassword">verifyLoginWithInvalidEmailValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials">verifyLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithValidEmailInvalidPassword">verifyLoginWithValidEmailInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_16_Day15_Application_Of_OOPs.SearchProductTest" class="method navigator-link" hash-for-method="verifySearchWithInvalidProduct">verifySearchWithInvalidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_16_Day15_Application_Of_OOPs.SearchProductTest" class="method navigator-link" hash-for-method="verifySearchWithNoProduct">verifySearchWithNoProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TestNG.Jan_16_Day15_Application_Of_OOPs.SearchProductTest" class="method navigator-link" hash-for-method="verifySearchWithValidProduct">verifySearchWithValidProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -118,18 +182,123 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.TestNG.Jan_13_Day14_TestNG_testing.Xml.Parameterization_Using_TestNGxml_File</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginWithValidCredentials(https://tutorialsninja.com/demo, seleniumpanda@gmail.com, Selenium@123)">
-                  </a> <!-- verifyLoginWithValidCredentials(https://tutorialsninja.com/demo, seleniumpanda@gmail.com, Selenium@123) -->
+                  <a name="VerifyingRegisterWithExistingEmail">
+                  </a> <!-- VerifyingRegisterWithExistingEmail -->
+                  <span class="method-name">VerifyingRegisterWithExistingEmail</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest.VerifyingRegisterWithExistingEmail(RegisterTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWitNoCredentials">
+                  </a> <!-- verifyLoginWitNoCredentials -->
+                  <span class="method-name">verifyLoginWitNoCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInvalidCredentials">
+                  </a> <!-- verifyLoginWithInvalidCredentials -->
+                  <span class="method-name">verifyLoginWithInvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInvalidEmailValidPassword">
+                  </a> <!-- verifyLoginWithInvalidEmailValidPassword -->
+                  <span class="method-name">verifyLoginWithInvalidEmailValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials">
+                  </a> <!-- verifyLoginWithValidCredentials -->
                   <span class="method-name">verifyLoginWithValidCredentials</span>
-                  <span class="parameters">(https://tutorialsninja.com/demo,seleniumpanda@gmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidEmailInvalidPassword">
+                  </a> <!-- verifyLoginWithValidEmailInvalidPassword -->
+                  <span class="method-name">verifyLoginWithValidEmailInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyingRegisterWithAllFields">
+                  </a> <!-- VerifyingRegisterWithAllFields -->
+                  <span class="method-name">VerifyingRegisterWithAllFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyingRegisterWithMandatoryFields">
+                  </a> <!-- VerifyingRegisterWithMandatoryFields -->
+                  <span class="method-name">VerifyingRegisterWithMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyingRegisterWithNoFields">
+                  </a> <!-- VerifyingRegisterWithNoFields -->
+                  <span class="method-name">VerifyingRegisterWithNoFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TestNG.Jan_16_Day15_Application_Of_OOPs.SearchProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithInvalidProduct">
+                  </a> <!-- verifySearchWithInvalidProduct -->
+                  <span class="method-name">verifySearchWithInvalidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithNoProduct">
+                  </a> <!-- verifySearchWithNoProduct -->
+                  <span class="method-name">verifySearchWithNoProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithValidProduct">
+                  </a> <!-- verifySearchWithValidProduct -->
+                  <span class="method-name">verifySearchWithValidProduct</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +306,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\andyl\eclipse-workspace\My_FirsrtMaven_AutoProject_Nov29_2023\testngParameterization.xml</span>
+            <span class="header-content">C:\Users\andyl\eclipse-workspace\My_FirsrtMaven_AutoProject_Nov29_2023\testngPractisingOOP.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,11 +314,10 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;Selenium@123&quot;/&gt;
-    &lt;parameter name=&quot;url&quot; value=&quot;https://tutorialsninja.com/demo&quot;/&gt;
-    &lt;parameter name=&quot;email&quot; value=&quot;seleniumpanda@gmail.com&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.TestNG.Jan_13_Day14_TestNG_testing.Xml.Parameterization_Using_TestNGxml_File&quot;/&gt;
+      &lt;class name=&quot;com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;com.TestNG.Jan_16_Day15_Application_Of_OOPs.SearchProductTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -163,7 +331,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,16 +357,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyLoginWithValidCredentials')
-data.setCell(0, 2, 'com.TestNG.Jan_13_Day14_TestNG_testing.Xml.Parameterization_Using_TestNGxml_File')
-data.setCell(0, 3, 12634);
+data.setCell(0, 1, 'VerifyingRegisterWithAllFields')
+data.setCell(0, 2, 'com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest')
+data.setCell(0, 3, 2865);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLoginWithValidCredentials')
+data.setCell(1, 2, 'com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest')
+data.setCell(1, 3, 2813);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyingRegisterWithMandatoryFields')
+data.setCell(2, 2, 'com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest')
+data.setCell(2, 3, 2262);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyingRegisterWithExistingEmail')
+data.setCell(3, 2, 'com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest')
+data.setCell(3, 3, 1855);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifySearchWithValidProduct')
+data.setCell(4, 2, 'com.TestNG.Jan_16_Day15_Application_Of_OOPs.SearchProductTest')
+data.setCell(4, 3, 1671);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySearchWithInvalidProduct')
+data.setCell(5, 2, 'com.TestNG.Jan_16_Day15_Application_Of_OOPs.SearchProductTest')
+data.setCell(5, 3, 1386);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLoginWithValidEmailInvalidPassword')
+data.setCell(6, 2, 'com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest')
+data.setCell(6, 3, 1297);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLoginWithInvalidCredentials')
+data.setCell(7, 2, 'com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest')
+data.setCell(7, 3, 1200);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyLoginWithInvalidEmailValidPassword')
+data.setCell(8, 2, 'com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest')
+data.setCell(8, 3, 1188);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyingRegisterWithNoFields')
+data.setCell(9, 2, 'com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest')
+data.setCell(9, 3, 811);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyLoginWitNoCredentials')
+data.setCell(10, 2, 'com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest')
+data.setCell(10, 3, 719);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifySearchWithNoProduct')
+data.setCell(11, 2, 'com.TestNG.Jan_16_Day15_Application_Of_OOPs.SearchProductTest')
+data.setCell(11, 3, 691);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -224,14 +436,158 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.TestNG.Jan_13_Day14_TestNG_testing.Xml.Parameterization_Using_TestNGxml_File</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginWithValidCredentials(https://tutorialsninja.com/demo, seleniumpanda@gmail.com, Selenium@123)</span>
+              <div class="chronological-class-name">com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials</span>
+                <span class="method-start">25718 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12649 ms</span>
+                <span class="method-start">28537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">29105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInvalidCredentials</span>
+                <span class="method-start">37727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38930 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">39283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidEmailInvalidPassword</span>
+                <span class="method-start">49625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50931 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">51266 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInvalidEmailValidPassword</span>
+                <span class="method-start">60327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61519 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">62007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWitNoCredentials</span>
+                <span class="method-start">69983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70704 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">71042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyingRegisterWithMandatoryFields</span>
+                <span class="method-start">79343 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81612 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">82009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyingRegisterWithAllFields</span>
+                <span class="method-start">91745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">94931 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyingRegisterWithExistingEmail</span>
+                <span class="method-start">104965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106827 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">107160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyingRegisterWithNoFields</span>
+                <span class="method-start">116997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">117819 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestNG.Jan_16_Day15_Application_Of_OOPs.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">118184 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithValidProduct</span>
+                <span class="method-start">124525 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">126197 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">126505 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithInvalidProduct</span>
+                <span class="method-start">132718 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134106 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">134517 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithNoProduct</span>
+                <span class="method-start">144074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">144768 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

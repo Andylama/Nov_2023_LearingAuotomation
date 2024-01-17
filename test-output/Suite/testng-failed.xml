@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.TestNG.Jan_13_Day14_TestNG_testing.Xml.RegisterTest">
+      <class name="com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest">
         <methods>
-          <include name="VerifyingRegisterWithExistingEmail"/>
           <include name="registerSetup"/>
+          <include name="VerifyingRegisterWithExistingEmail"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.TestNG.Jan_13_Day14_TestNG_testing.Xml.RegisterTest -->
+      </class> <!-- com.TestNG.Jan_16_Day15_Application_Of_OOPs.RegisterTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
