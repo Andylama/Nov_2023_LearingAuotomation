@@ -1,4 +1,4 @@
-package com.java.Jan_15_2024_OOPs_Objects_Injava_Day15;
+package com.java.Jan_17_2024_OOPs_Inheritance_Injava_Day16;
 
 public class Student {
 	
