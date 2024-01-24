@@ -19,7 +19,14 @@ Answer:   Interface is blueprint of a Class.
           Whem a concrete Class implements an Interface, It also has to implement all the abstract Methods of Interface.
           A concrete Class can extend an Abstract Class as well as implement an Interface or implement Multiple Interfaces.     
                
-                                 
+           Use of Interface:-
+           1. Used t acheive abstraction.
+           2. supports multiple Inheritance.
+           3. Can be used to achieve loose couplinng.    
+           
+             Syntax:
+             Accessmodifier> interface >InterbaceName {
+             }                
                                  
                                  */
 

@@ -5,6 +5,7 @@
     <classes>
       <class name="com.TestNG.Jan_20_2024_Day16_Application_Of_OOPS_Encapsulation.LoginTest">
         <methods>
+          <include name="tearDown"/>
           <include name="loginValidCredentials"/>
         </methods>
       </class> <!-- com.TestNG.Jan_20_2024_Day16_Application_Of_OOPS_Encapsulation.LoginTest -->

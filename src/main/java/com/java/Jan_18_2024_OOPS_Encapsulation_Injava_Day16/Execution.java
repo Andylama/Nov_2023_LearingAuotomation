@@ -4,11 +4,10 @@ public class Execution {
 
 	public static void main(String[] args) {
 		Student student = new Student();
-		student.setData("Lama", 10);
+		student.setData("Lama", 25);
 		
-		System.out.println(student.getData1());
-		
-		System.out.println(student.getData2());
+		System.out.println("Teacher Name is : "+student.getData1());		
+		System.out.println("Teacher Age  is : "+student.getData2());
 
 	}
 
