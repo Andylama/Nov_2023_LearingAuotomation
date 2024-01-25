@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.java.Dec_30_2023_Day9_SpecialClasses.Util;
+import com.java.Dec_30_2023_Day9_SpecialClasses_Date_Class.Util;
 
 
 public class ApplyingInAutomation {

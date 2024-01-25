@@ -12,8 +12,8 @@ public interface Introduction {
 	
 	default void Check()        {// This is default concrete Method.
 }
-	private void Check1()       {// This is private concrete Method.
+	private void Check1()      {// This is private concrete Method.
 }
     public static void Check2() {// This is public static concrete Method.
-}
+   }
 }

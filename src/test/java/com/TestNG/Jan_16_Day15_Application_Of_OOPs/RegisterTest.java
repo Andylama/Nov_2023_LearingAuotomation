@@ -7,7 +7,8 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import com.java.Dec_30_2023_Day9_SpecialClasses.Util;
+
+import com.java.Dec_30_2023_Day9_SpecialClasses_Date_Class.Util;
 
 public class RegisterTest extends TestBase{
 public RegisterTest() throws Exception {

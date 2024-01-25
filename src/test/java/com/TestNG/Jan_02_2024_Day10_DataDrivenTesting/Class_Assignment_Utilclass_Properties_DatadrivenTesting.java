@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
-import com.java.Dec_30_2023_Day9_SpecialClasses.Util;
+import com.java.Dec_30_2023_Day9_SpecialClasses_Date_Class.Util;
 
 public class Class_Assignment_Utilclass_Properties_DatadrivenTesting {
 	         //How to read from Properties file.//   

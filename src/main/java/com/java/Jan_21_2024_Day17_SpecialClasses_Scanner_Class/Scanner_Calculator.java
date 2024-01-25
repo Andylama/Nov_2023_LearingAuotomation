@@ -1,4 +1,4 @@
-package com.java.Jan_21_2024_Day17_SpecialClasses;
+package com.java.Jan_21_2024_Day17_SpecialClasses_Scanner_Class;
 
 import java.util.Scanner;
 
