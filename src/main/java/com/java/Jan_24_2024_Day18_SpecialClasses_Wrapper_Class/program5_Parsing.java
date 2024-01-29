@@ -60,7 +60,7 @@ public class program5_Parsing {
 	
 	
 //--------------------------------------------------------------------	
-	/*     Character Parsing:                              */
+	/*     Character Parsing:  is not possible this is the only you have to do other way                            */
 	public static void StringToCharacter() {
 	
 		

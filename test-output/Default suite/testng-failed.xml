@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.Jan_20_2024_Day16_Application_Of_OOPS_Encapsulation.LoginTest">
+      <class name="com.TestNG.Jan_28_2024_Day18_Retry_Failed_TestCases.LoginTest">
         <methods>
+          <include name="loginValidationCorrectCredentials"/>
           <include name="tearDown"/>
-          <include name="loginValidCredentials"/>
         </methods>
-      </class> <!-- com.TestNG.Jan_20_2024_Day16_Application_Of_OOPS_Encapsulation.LoginTest -->
+      </class> <!-- com.TestNG.Jan_28_2024_Day18_Retry_Failed_TestCases.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

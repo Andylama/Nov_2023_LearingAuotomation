@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+    
+  <groups>
+    <!--                           Metegroup Example  1             -->
+      
+               <define name="OvernightTestCasesGroup">
+             <include   name="Regression">   </include>
+              </define> 
+              
+        <!--                       Metegroup Example  2            -->
+      
+               <define name="SprintStartingBuildTestCasesGroup">
+             <include   name="Smoke">   </include>
+              </define>         
+                <!--                Metegroup Example  2            -->
+      
+               <define name="SprintStartingBuildTestCasesGroup">
+             <include   name="Smoke">   </include>
+              </define>    
+              
+            <!--                Metegroup Example  3            -->
+      
+               <define name="PostSmokeGroupSuccessTestCasesGroup">
+             <include   name="Sanity">   </include>
+              </define>            
+              
+                   
+     
+     <!--      Simple Group Example  as well as Regular Expression Example             -->
+      <run> 
+      
+          <include name= "CompleteClassLevelGroup">  </include>
+     <exclude name="Windows.*"> </exclude>
+     <exclude name="macOS.* ">  </exclude>
+     </run>
+          
+       
+  </groups>
+  
+    <classes>
+      <class name="com.TestNG.Jan_25_2024_Day18_TestNG.Groups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
