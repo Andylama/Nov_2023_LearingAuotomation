@@ -60,7 +60,8 @@ public WebDriver driver;
 	
 	@ AfterMethod
 	public void TearDown() {
+	driver.quit();
+	}	
 }
 //----------------------------------------------------------------------------------------	
 	
-}

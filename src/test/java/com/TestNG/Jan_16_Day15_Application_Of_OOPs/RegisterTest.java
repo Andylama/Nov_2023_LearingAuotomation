@@ -70,7 +70,7 @@ public WebDriver driver;
 		 driver.findElement(By.xpath(" //div[@class='pull-right']/descendant::input[@name='agree']")).click();
 		 driver.findElement(By.xpath(" //div[@class='pull-right']/descendant::input[@class='btn btn-primary']")).click();
 		String acutualDuplicateWarningMessage = driver.findElement(By.xpath("//div[contains(@class,'alert-dismissible')]")).getText();
-		String expectedlDuplicateWarningMessage = "Warning:E-mail Address is already registered!";
+		String expectedlDuplicateWarningMessage = "Warning: E-Mail Address is already registered!";
 		Assert.assertTrue(acutualDuplicateWarningMessage.contains(expectedlDuplicateWarningMessage));
 	 }
 	 
