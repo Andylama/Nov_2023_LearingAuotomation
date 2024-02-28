@@ -158,7 +158,8 @@ public class RediffWebTable_Assignment {
                 // Break out of the loop after finding the target company (assuming unique company names)
         }   
         
-        }}
+        }
+        }
     
     @Test
     

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-16T10:15:30 EST" name="Default suite" finished-at="2024-02-16T10:15:50 EST" duration-ms="20202">
+  <suite started-at="2024-02-21T00:34:43 EST" name="Default suite" finished-at="2024-02-21T00:34:58 EST" duration-ms="14742">
     <groups>
     </groups>
-    <test started-at="2024-02-16T10:15:30 EST" name="Default test" finished-at="2024-02-16T10:15:50 EST" duration-ms="20202">
-      <class name="com.automation.Feb_14_2024_Day22_WebTables.RediffWebTable_Assignment">
-        <test-method is-config="true" signature="LaunchWebsite()[pri:0, instance:com.automation.Feb_14_2024_Day22_WebTables.RediffWebTable_Assignment@f09733f]" started-at="2024-02-16T10:15:30 EST" name="LaunchWebsite" finished-at="2024-02-16T10:15:49 EST" duration-ms="18755" status="PASS">
+    <test started-at="2024-02-21T00:34:43 EST" name="Default test" finished-at="2024-02-21T00:34:58 EST" duration-ms="14742">
+      <class name="com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest@4d154ccd]" started-at="2024-02-21T00:34:43 EST" name="loginSetup" finished-at="2024-02-21T00:34:55 EST" duration-ms="12502" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchWebsite -->
-        <test-method signature="FindPriceOfCompanyIn_the_Specefic_Row()[pri:0, instance:com.automation.Feb_14_2024_Day22_WebTables.RediffWebTable_Assignment@f09733f]" started-at="2024-02-16T10:15:49 EST" name="FindPriceOfCompanyIn_the_Specefic_Row" finished-at="2024-02-16T10:15:50 EST" duration-ms="838" status="PASS">
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest@4d154ccd]" started-at="2024-02-21T00:34:55 EST" name="verifyLoginWithValidCredentials" finished-at="2024-02-21T00:34:57 EST" duration-ms="1791" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FindPriceOfCompanyIn_the_Specefic_Row -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.automation.Feb_14_2024_Day22_WebTables.RediffWebTable_Assignment@f09733f]" started-at="2024-02-16T10:15:50 EST" name="TearDown" finished-at="2024-02-16T10:15:50 EST" duration-ms="520" status="PASS">
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest@4d154ccd]" started-at="2024-02-21T00:34:57 EST" name="tearDown" finished-at="2024-02-21T00:34:58 EST" duration-ms="359" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.automation.Feb_14_2024_Day22_WebTables.RediffWebTable_Assignment -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestNG.Jan_16_Day15_Application_Of_OOPs.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
